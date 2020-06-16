@@ -1,15 +1,16 @@
+/*body styling*/
 body {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
   color: #DDF;
 }
-
+/*header properties and image*/
 header {
 	height: 140px;
 	background-color: #403933;
 	background-image:url(https://raw.githubusercontent.com/dryland33/Thinkful_Portfolio/master/istockphoto-1138395421-612x612.jpg);
 }
-
+/*logo inside the header*/
 .logo {
   font-family: "Times New Roman", Times, serif;
   font-size: 72px;
@@ -19,7 +20,7 @@ header {
   margin: 0;
   padding: 20px 0 0 0;
 }
-
+/*header h2 tag styling*/
 header h2 {
 	font-family: "Times New Roman", Times, serif;
 	color: #888;
@@ -27,36 +28,36 @@ header h2 {
 	font-size: 18px;
 	text-align: center;
 }
-
+/*footer styling*/
 footer {
 	background-color: #403933;
 	background-image:url(https://raw.githubusercontent.com/dryland33/Thinkful_Portfolio/master/istockphoto-1138395421-612x612.jpg);
 
 }
-
+/*layout*/
 section {
   padding: 0 25%;
   margin: 80px 0;
 }
-
+/*header tag styles*/
 h1, h2, h3 {
   font-family: "Times New Roman", Times, serif;
   color: #888;
   text-align: center;
   font-weight: 500;
 }
-
+/*header tag fonts*/
 h1 { font-size: 28px; }
 h2 { font-size: 26px; }
 h3 { font-size: 18px; }
-
+/*paragraph and list styles*/
 p, li {
  font-family: "Times New Roman", Times, serif;
  line-height: 1.5em;
  margin-bottom: 0;
  color: #001430;
 }
-
+/*anchor styles*/
 a {
 	font-weight: 700;
 	text-decoration: none;	
@@ -68,25 +69,25 @@ a:active { color: #02426e; }
 a:hover {
 	text-decoration: underline;	
 }
-
+/*emphasis tag style*/
 em {
   font-weight: bold;
   font-style: normal;
 }
-
+/*footer paragraph style*/
 footer p {
 	color: #fff;	
 	text-align: center;
   padding: 30px;
   margin: 0;
 }
-
+/*adding rounded corners to the picture*/
 img, iframe { 
   width: 100%;	
   border-radius: 8px;
-  border: 1px solid #c5c0b8;
+  border: 1px solid #001430;
 } 
-
+/*positioning*/
 .border-top {
   padding-top: 80px;
   border-top: 2px solid #001430;
