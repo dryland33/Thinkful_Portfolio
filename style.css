@@ -61,10 +61,10 @@ a {
 	font-weight: 700;
 	text-decoration: none;	
 }
-a:link { color: #001430; }
-a:visited { color: #001430; }
-a:hover { color: #001430; }
-a:active { color: #001430; }
+a:link { color: #02426e; }
+a:visited { color: #02426e; }
+a:hover { color: #02426e; }
+a:active { color: #02426e; }
 a:hover {
 	text-decoration: underline;	
 }
