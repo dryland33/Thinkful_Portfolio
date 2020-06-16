@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color: #DDF;
 }
 
@@ -11,7 +11,7 @@ header {
 }
 
 .logo {
-  font-family: 'Nanum Pen Script';
+  font-family: "Times New Roman", Times, serif;
   font-size: 72px;
   color: #888;
   text-align: center;
@@ -21,7 +21,7 @@ header {
 }
 
 header h2 {
-	font-family: 'Montserrat', serif;
+	font-family: "Times New Roman", Times, serif;
 	color: #888;
 	margin: 0px;
 	font-size: 18px;
@@ -40,7 +40,7 @@ section {
 }
 
 h1, h2, h3 {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color: #888;
   text-align: center;
   font-weight: 500;
@@ -51,7 +51,7 @@ h2 { font-size: 26px; }
 h3 { font-size: 18px; }
 
 p, li {
- font-family: 'Montserrat', sans-serif;
+ font-family: "Times New Roman", Times, serif;
  line-height: 1.5em;
  margin-bottom: 0;
  color: #001430;
