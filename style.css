@@ -1,171 +1,203 @@
-/*body styling*/
+
+/* -------  General Styles ------- */
+
 body {
   margin: 0;
-  font-family: "Times New Roman", Times, serif;
-  color: #DDF;
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(images/backgrounds/subtle_white_mini_waves.jpg);
 }
-/*header properties and image*/
+
 header {
-	height: 140px;
-	background-color: #403933;
-	background-image:url(https://raw.githubusercontent.com/dryland33/Thinkful_Portfolio/master/istockphoto-1138395421-612x612.jpg);
+  background-color: #403933;
+  background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
+  margin-bottom: 40px;
 }
-/*logo inside the header*/
+
 .logo {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Nanum Pen Script', cursive;
   font-size: 72px;
-  color: #aaa;
+  color: #c5c0b8;
   text-align: center;
   letter-spacing: -3;
   margin: 0;
   padding: 20px 0 0 0;
 }
-/*header h2 tag styling*/
-header h2 {
-	font-family: "Times New Roman", Times, serif;
-	color: #888;
-	margin: 0px;
-	font-size: 18px;
-	text-align: center;
-}
-/*footer styling*/
-footer {
-	background-color: #403933;
-	background-image:url(https://raw.githubusercontent.com/dryland33/Thinkful_Portfolio/master/istockphoto-1138395421-612x612.jpg);
 
+
+/* ---  Navigation --- */
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-/*layout*/
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+}
+
+@media all and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+  
+  header nav {
+    margin-top: 14px;
+  }
+}
+
+/* ---  Primary Groups --- */
+
+main {
+  padding: 20px 0;
+}
+
 section {
-  padding: 0 25%;
+  margin-bottom: 100px;
+}
+
+section.dark-background {   
+  background-color: #c5c0b8;
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin: 80px 0;
 }
-/*header tag styles*/
-h1, h2, h3 {
-  font-family: "Times New Roman", Times, serif;
-  color: #888;
-  text-align: center;
+
+footer {
+  background-color: #403933;
+  background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+/* ---  Typography --- */
+
+h1 {
+  font-size: 28px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+  color: #403933;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 500;
 }
-/*header tag fonts*/
-h1 { font-size: 28px; }
-h2 { font-size: 26px; }
-h3 { font-size: 18px; }
-/*paragraph and list styles*/
-p, li {
- font-family: "Times New Roman", Times, serif;
+
+p {
+ font-family: 'Montserrat', sans-serif;
  line-height: 1.5em;
  margin-bottom: 0;
- color: #001430;
 }
-/*anchor styles*/
-a {
+
+main a {
 	font-weight: 700;
 	text-decoration: none;	
 }
-a:link { color: #02426e; }
-a:visited { color: #02426e; }
-a:hover { color: #02426e; }
-a:active { color: #02426e; }
+
+main  a:link { color: #38786a; }
+main  a:visited { color: #38786a; }
+main  a:hover { color: #403933; }
+a:active { color: #403933; }
+
+
 a:hover {
 	text-decoration: underline;	
 }
-/*emphasis tag style*/
-em {
-  font-weight: bold;
-  font-style: normal;
-}
-/*footer h3 style*/
-footer h3 {
-	color: #fff;	
-	text-align: center;
-  padding: 30px;
-  margin: 0;
-}
-/*adding rounded corners to the picture*/
-img, iframe { 
-  width: 100%;	
-  border-radius: 8px;
-  border: 1px solid #001430;
-} 
-/*positioning*/
-.border-top {
-  padding-top: 80px;
-  border-top: 2px solid #002860;
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
-/* ---  Navigation --- */
-  
-  header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  header nav ul {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 0;
-  }
-  
-  header nav ul li {
-    list-style-type: none;
-  }
-  
-  header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0 20px 0 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  header nav ul li a:hover {
-    color: #ccc;
-  }
-  
-  @media all and (min-width: 700px) {
-    header {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .logo {
-      margin: 14px 0 14px 20px;
-      padding-top: 0;
-      font-size: 42px;
-    }
-    
-    header nav {
-      margin-top: 14px;
-    }
-  }
+
+main img {
+  width: 100%;
+}
+
+img.image-enhanced {
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+
 
 /* ---  (Desktop) Groups & Items --- */
-  
-  @media all and (min-width: 800px) {
-    section {
-      padding: 0 10%;
-    }
-    .group {
-      flex-direction: row;
-    }
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
   }
-  
-  /* Contact Form Design */
-  
-  form {
-    padding-right: 8px;
+  .group {
+    flex-direction: row;
   }
-  
-  form label {
-    display: block;
-  }
-  
-  form input, 
-  form textarea {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  form textarea {
-    height: 160px;
-  }  
+}
+
+
+
+/* Contact Form Design */
+
+form {
+  padding-right: 8px;
+  /* Fixed small sizing issue on the right */
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
